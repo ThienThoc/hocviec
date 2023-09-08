@@ -1,0 +1,74 @@
+/* reset margin, padding */
+body {margin: 0 !important;
+    padding: 0 !important;  
+}
+
+.anhnen 
+{ 
+    height: 600px;
+    background: url(./343130266_193495103483730_418354839848255943_n.jpg) center center no-repeat;
+    .thienthoc-dangnhap{
+        height: 80px;
+        width: 100%;
+        text-align: right;
+        .thienthoc,
+        .dangnhap{
+            margin-top: 20px;
+            padding: 7px;
+            text-decoration: none;
+            display: inline-block;
+            text-transform: uppercase;
+            color: yellow;
+        }
+        .dangnhap{
+            margin-right: 60px;
+            margin-left: 25px;
+            border-radius: 20px;
+            border: 1px solid blue;
+        }  
+    }
+    .logo{
+        margin-top: 57px;
+        height: 250px;
+        background: url(./hapoERP.png) center center no-repeat;   
+    }
+    .conten{
+        height: 60px;
+        margin-top: -45px;
+        .a1,
+        .a2,
+        .a3 {
+        font-size: 30px;
+        color: red;
+        width: 33%;
+        display: inline-block;
+        text-align: center;
+        } 
+    }
+    .start {
+            text-align: center;
+            margin-top: 60px;
+    }
+    .text{
+            text-align: center;
+            color: blue;    
+            margin-top: -71px;
+            text-transform: uppercase;    
+    }  
+}
+
+span {display:block;
+}
+img{
+    height: 40px;
+    width: 40px;
+}
+
+button{
+    text-transform: uppercase;
+    border-radius: 20px;
+    border: 1px solid blue;
+    padding: 10px 15px;
+    cursor: pointer;
+    color: black;
+}
